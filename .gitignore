@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Tests, caches, logs, and temporary files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.streamlit/cache/
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
